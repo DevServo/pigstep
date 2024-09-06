@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pigstep with Full-Screen GIF</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+    <!-- Outdated Browser Message -->
+    <div id="outdatedMessage">
+        <div>
+            <p>Your browser is outdated. Please update to a modern browser for the best experience.</p>
+            <button id="okButton" onclick="closeMessage()">OK</button>
+        </div>
+    </div>
+
+    <div id="container">
+        <button id="playButton" onclick="playAudio()">Play</button>
+        <div id="counter">0s</div>
+    </div>
+
+    <!-- YouTube iframe -->
+    <div id="player" style="display: none;"></div>
+
+   <script src="main.js"></script>
+</body>
+</html>
